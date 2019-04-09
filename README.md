@@ -1,5 +1,5 @@
-# Seconds-py
-
-Write a Python statement that calculates and
-prints the number of seconds in 7 hours,
-21 minutes and 37 seconds.
+# Инструменты специалиста
+Создать веб страницу, что бы было видно умения и/или
+На главном экране фото, ФИО, облако навыков
+Навык, это вики статья+видео
+Можно свой результат - фото выложить в общий доступ
