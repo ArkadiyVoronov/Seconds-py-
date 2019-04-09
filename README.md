@@ -3,5 +3,5 @@
 На главном экране фото, ФИО, облако навыков
 Навык, это вики статья+видео
 Можно свой результат - фото выложить в общий доступ
-TODO translate to English
-TODO add some foto with shemas of main menu
+## TODO translate to English
+## TODO add some foto with shemas of main menu
