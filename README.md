@@ -1,7 +1,7 @@
-# Инструменты специалиста
-Создать веб страницу, что бы было видно умения и/или
-На главном экране фото, ФИО, облако навыков
-Навык, это вики статья+видео
-Можно свой результат - фото выложить в общий доступ
-## TODO translate to English
+# Specialist tools
+Create web site, for people with foto, name, etc
+On main screen foto, name, cloud of spec
+Spec this is wiki+video
+Your on result can uploud in public
+
 ## TODO add some foto with shemas of main menu
