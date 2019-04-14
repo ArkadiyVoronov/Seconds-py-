@@ -6,6 +6,7 @@
 
 ## TODO add some foto with shemas of main menu
 ### Python
+Duffy C. - Python Penetration Testing for Developers - 2016
 ### Java
 ### Bash
 ### Powershell
