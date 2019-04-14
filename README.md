@@ -5,5 +5,9 @@
 * Your on result can uploud in public
 
 ## TODO add some foto with shemas of main menu
-### First tool - Python
-## TODO add some Java tools
+### Python
+### Java
+### Bash
+### Powershell
+### C#
+### Ruby
