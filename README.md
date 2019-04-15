@@ -17,3 +17,7 @@ Books:
 ### Ruby
 #### Work now
 * SoapUI
+### Clouds
+#### Google Cloud Storage
+#### Amazon Web Storage
+#### Azure
