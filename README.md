@@ -19,5 +19,6 @@ Books:
 * SoapUI
 ### Clouds
 #### Google Cloud Storage
+* kubernetes
 #### Amazon Web Storage
 #### Azure
