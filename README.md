@@ -6,7 +6,7 @@
 
 ## TODO add some foto with shemas of main menu
 ### Python
-* Python Koans - Learn Python through TDD
+##### Python Koans - Learn Python through TDD
 Books:
 * Duffy C. - Python Penetration Testing for Developers - 2016
 #### Scripts:
