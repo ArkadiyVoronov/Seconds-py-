@@ -16,6 +16,7 @@ Books:
 ### Powershell
 ### C#
 ### Ruby
+##### Ruby Koans
 * Ruby 0n Rails
 #### Work now
 * SoapUI
