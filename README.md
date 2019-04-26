@@ -5,6 +5,8 @@
 * Your on result can uploud in public
 
 ## TODO add some foto with shemas of main menu
+### DevOps
+### TestOps
 ### Python
 ##### Python Koans - Learn Python through TDD
 Books:
