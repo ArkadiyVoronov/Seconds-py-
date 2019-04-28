@@ -13,6 +13,9 @@ Books:
 * Duffy C. - Python Penetration Testing for Developers - 2016
 #### Scripts:
 #### TODO add links to scripts
+### Security tools
+* Web app
+* Desktop app
 ### Java
 ### Bash
 ### Powershell
