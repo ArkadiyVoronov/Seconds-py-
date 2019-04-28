@@ -8,6 +8,7 @@
 ### DevOps
 ### TestOps
 ### Python
+* Python + Bash
 ##### Python Koans - Learn Python through TDD
 Books:
 * Duffy C. - Python Penetration Testing for Developers - 2016
