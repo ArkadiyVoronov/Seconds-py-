@@ -3,6 +3,7 @@
 * On main screen foto, name, cloud of spec
 * Spec this is wiki+video
 * Your on result can uploud in public
+* 
 
 ## TODO add some foto with shemas of main menu
 ### DevOps
@@ -11,7 +12,6 @@
 * Python + Bash
 * Django
 * Python Koans - Learn Python through TDD
-
 Books:
 * Duffy C. - Python Penetration Testing for Developers - 2016
 #### Scripts:
