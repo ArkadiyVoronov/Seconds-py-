@@ -21,6 +21,7 @@ Books:
 * Desktop app
 ### Wifi
 * Nmap
+* Fiddler
 ### Java
 ### Bash
 ### Powershell
@@ -32,6 +33,6 @@ Books:
 * SoapUI
 ### Clouds
 #### Google Cloud Storage
-* kubernetes
+* Kubernetes
 #### Amazon Web Storage
 #### Azure
