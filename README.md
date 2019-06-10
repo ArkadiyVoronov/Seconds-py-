@@ -12,7 +12,7 @@
 * Python + Bash
 * Django
 * Python Koans - Learn Python through TDD
-Books:
+### Books:
 * Duffy C. - Python Penetration Testing for Developers - 2016
 * Mark Lutz - Programming Python, 4th Edition - 2014
 * Mark Lutz - Python Pocket Reference, 5th edition - 2014
