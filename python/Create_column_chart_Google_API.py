@@ -30,7 +30,7 @@ htmlString = Template("""<html><head><script type="text/javascript" src="https:/
 <script type="text/javascript">
   google.charts.load('current', {packages: ['corechart']});
   google.charts.setOnLoadCallback(drawChart);
-  
+
   function drawChart(){
       var data = google.visualization.arrayToDataTable([
       $labels,
