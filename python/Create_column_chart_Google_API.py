@@ -10,22 +10,22 @@ with open('TestAnalysisData.csv') as csv_file:
     file_reader = csv.reader(csv_file)
     for row in file_reader:
         data_list.append(row)
-    #read in data using csv reader
+    # read in data using csv reader
 
-column_chart_data = [["Test Name","NumberOfAsserts"]]
-table_data = [["Test Name","NumberOfFailedAsserts"]]
+column_chart_data = [["Test Name", "NumberOfAsserts"]]
+table_data = [["Test Name", "NumberOfFailedAsserts"]]
 
-#new list is initialized with headers
+# new list is initialized with headers
 chart_data = [data_list[0]]
 for row in data_list[1:]:
     num_asserts = int(row[1])
     num_failed_asserts = int(row[2])
-    chart_data.append([row[0],num_asserts,num_failed_asserts])
+    chart_data.append([row[0], num_asserts, num_failed_asserts])
 
 
-#create the html for the chart
+# create the html for the chart
 from string import Template
-#first substitution is the header, the rest is the data
+# first substitution is the header, the rest is the data
 htmlString = Template("""<html><head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
   google.charts.load('current', {packages: ['corechart']});
@@ -52,13 +52,13 @@ htmlString = Template("""<html><head><script type="text/javascript" src="https:/
 
 chart_data_str = ''
 for row in chart_data[1:]:
-    #create the data string
-    chart_data_str +='%s,\n'%row
+    # create the data string
+    chart_data_str += '%s, \n'%row
 
-#substitute the data into the template
+# substitute the data into the template
 completed_html = htmlString.substitute(labels=chart_data[0],
 data=chart_data_str)
 
-with open('Chart.html','w') as f:
-    #write the html string you've create to a file
+with open('Chart.html', 'w') as f:
+    # write the html string you've create to a file
     f.write(completed_html)
