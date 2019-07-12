@@ -9,7 +9,7 @@ url = 'https://jsonplaceholder.typicode.com/photos'
 # get the data about the photos
 response = requests.get(url)
 
-# read that data into a variable  
+# read that data into a variable
 json_data = response.json()
 
 # create a list for storing the url of each photo
