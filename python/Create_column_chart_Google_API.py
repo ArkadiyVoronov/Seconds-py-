@@ -1,9 +1,9 @@
 import csv
 
-#final desired data formats:
+# final desired data formats:
 # - Charts:         [["Test Name",<NumberOfAsserts>,<NumberOfFailedAsserts>],...]
 
-#read in the data from file
+# read in the data from file
 
 data_list = []
 with open('TestAnalysisData.csv') as csv_file:
