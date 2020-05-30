@@ -1,5 +1,8 @@
 import csv
 
+# Script that accepts a CSV file at the input,
+# uses the Google API to draw page.Html "Tests Pass and not pass"
+
 # final desired data formats:
 # - Charts:         [["Test Name",<NumberOfAsserts>,<NumberOfFailedAsserts>],...]
 
