@@ -1,7 +1,7 @@
 import csv
 
 # Script that accepts a CSV file at the input,
-# uses the Google API to create a Html file "Tests Pass and not pass"
+# uses the Google API to create a Chart.Html file "Tests Pass and not pass"
 
 # file.CSV this is a table with three columns separated by commas.
 # For example ("Test #34",45,23)
