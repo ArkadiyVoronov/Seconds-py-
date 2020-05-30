@@ -35,8 +35,10 @@ for row in data_list[1:]:
 # create the html for the chart
 from string import Template
 # first substitution is the header, the rest is the data
-htmlString = Template("""<html><head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
-</script><script type="text/javascript">
+htmlString = Template("""
+    <html><head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+    </script><script type="text/javascript">
   google.charts.load('current', {packages: ['corechart']});
   google.charts.setOnLoadCallback(drawChart);
 
