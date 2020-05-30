@@ -3,14 +3,14 @@ import csv
 # Script that accepts a CSV file at the input,
 # uses the Google API to create a Html file "Tests Pass and not pass"
 
-# file.CSV this is a table with three columns separated by commas. 
+# file.CSV this is a table with three columns separated by commas.
 # For example ("Test #34",45,23)
 # In the first column, the name of the test. Text value, in quotation marks.
 # Second column, number of asserts. Number.
 # Third column, number of failed asserts. Number.
 
 # final desired data formats:
-# - Charts:         [["Test Name",<NumberOfAsserts>,<NumberOfFailedAsserts>],...]
+# - Charts: [["Test Name",<NumberOfAsserts>,<NumberOfFailedAsserts>],...]
 
 # read in the data from file
 
@@ -35,8 +35,8 @@ for row in data_list[1:]:
 # create the html for the chart
 from string import Template
 # first substitution is the header, the rest is the data
-htmlString = Template("""<html><head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
+htmlString = Template("""<html><head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+</script><script type="text/javascript">
   google.charts.load('current', {packages: ['corechart']});
   google.charts.setOnLoadCallback(drawChart);
 
