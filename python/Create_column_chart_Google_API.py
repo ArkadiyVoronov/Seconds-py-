@@ -62,7 +62,8 @@ for row in chart_data[1:]:
     chart_data_str += '%s, \n' %row
 
 # substitute the data into the template
-completed_html = htmlString.substitute(labels=chart_data[0], data=chart_data_str)
+completed_html = htmlString.substitute(
+    labels=chart_data[0], data=chart_data_str)
 
 with open('Chart.html', 'w') as f:
     # write the html string you've create to a file
