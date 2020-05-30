@@ -3,6 +3,12 @@ import csv
 # Script that accepts a CSV file at the input,
 # uses the Google API to draw page.Html "Tests Pass and not pass"
 
+# file.CSV this is a table with three columns separated by commas. 
+# For example ("Test #34",45,23)
+# In the first column, the name of the test. Text value, in quotation marks.
+# Second column, number of asserts. Number.
+# Third column, number of failed asserts. Number.
+
 # final desired data formats:
 # - Charts:         [["Test Name",<NumberOfAsserts>,<NumberOfFailedAsserts>],...]
 
