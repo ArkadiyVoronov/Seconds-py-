@@ -37,19 +37,15 @@ from string import Template
 # first substitution is the header, the rest is the data
 htmlString = Template("""
     <html><head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
     </script><script type="text/javascript">
   google.charts.load('current', {packages: ['corechart']});
   google.charts.setOnLoadCallback(drawChart);
-
   function drawChart(){
       var data = google.visualization.arrayToDataTable([
-      $labels,
-      $data
-      ],
-      false);
-
-      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+      $labels, $data],false);
+      var chart = new google.visualization.ColumnChart(
+      document.getElementById('chart_div'));
       chart.draw(data);
   }
 </script>
@@ -57,7 +53,6 @@ htmlString = Template("""
 <body>
 <div id = 'chart_div' style='width:800; height:600'><div>
 </body>
-
 </html>""")
 
 
@@ -67,8 +62,7 @@ for row in chart_data[1:]:
     chart_data_str += '%s, \n' %row
 
 # substitute the data into the template
-completed_html = htmlString.substitute(labels=chart_data[0],
-data=chart_data_str)
+completed_html = htmlString.substitute(labels=chart_data[0], data=chart_data_str)
 
 with open('Chart.html', 'w') as f:
     # write the html string you've create to a file
