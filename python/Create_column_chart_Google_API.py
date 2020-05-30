@@ -64,7 +64,7 @@ htmlString = Template("""
 chart_data_str = ''
 for row in chart_data[1:]:
     # create the data string
-    chart_data_str += '%s, \n'%row
+    chart_data_str += '%s, \n' %row
 
 # substitute the data into the template
 completed_html = htmlString.substitute(labels=chart_data[0],
