@@ -19,6 +19,7 @@
 * SQLite
 * Python Koans - Learn Python through TDD
 * Automation testing
+* TKinter
 ### Books:
 * Lee Copeland - A Practitioner’s Guide to Software Test Design - 2003
 * Duffy C. - Python Penetration Testing for Developers - 2016
@@ -48,11 +49,14 @@ TODO add link for game "Bulls and Cows"
 * SQLite
 #### Work now
 * Net and Ansible, playbook, latency, IOPS, digital bandwidth
+#### Next to study
+* PostgreSQL, pgadmin
 ### Clouds
 #### Google Cloud Storage
 * Kubernetes
 #### Amazon Web Storage
 #### Azure
+#### Heroku
 
 ### Typing
 * Typing.com
