@@ -54,6 +54,11 @@ TODO add link for game "Bulls and Cows"
 #### Amazon Web Storage
 #### Azure
 
+### Typing
+* Typing.com
+* Nitrotype.com WPM 44
+* Ratatype.ru
+
 ### English
 #### Writing/Grammar skills
 * quill.org
