@@ -7,18 +7,27 @@
 
 ## TODO add some foto with shemas of main menu
 ### DevOps
+* Ansible, playbook
+* Latency
+* IOPS
+* Digital bandwidth
 ### TestOps
 ### Python
 * Python + Bash
 * Django
+* Flask
+* SQLite
 * Python Koans - Learn Python through TDD
+* Automation testing
 ### Books:
+* Lee Copeland - A Practitioner’s Guide to Software Test Design - 2004
 * Duffy C. - Python Penetration Testing for Developers - 2016
 * Mark Lutz - Programming Python, 4th Edition - 2014
 * Mark Lutz - Python Pocket Reference, 5th edition - 2014
 #### Scripts:
 #### TODO add links to scripts
 ### Security tools
+* Charles
 * Web app
 * Desktop app
 ### Wifi
@@ -29,6 +38,7 @@
 ### Bash
 ### Powershell
 ### C#
+* Automation testing
 ### Ruby
 ##### Ruby Koans
 * Ruby 0n Rails
