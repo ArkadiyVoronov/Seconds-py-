@@ -53,3 +53,16 @@ TODO add link for game "Bulls and Cows"
 * Kubernetes
 #### Amazon Web Storage
 #### Azure
+
+### English
+#### Writing/Grammar skills
+* quill.org
+* noredink.com
+#### Vocabulary
+* quizlet.com
+#### Reading/Nonfiction skills
+* readtheory.org
+#### Reading/Fiction&Nonfiction skills
+* readworks.org
+* newsela.com
+* commonlit.org
