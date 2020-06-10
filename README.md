@@ -39,11 +39,15 @@
 ### Powershell
 ### C#
 * Automation testing
+TODO add link for game "Bulls and Cows"
 ### Ruby
 ##### Ruby Koans
 * Ruby 0n Rails
+### SQL
+* MySQL
+* SQLite
 #### Work now
-* SoapUI
+* Net and Ansible, playbook, latency, IOPS, digital bandwidth
 ### Clouds
 #### Google Cloud Storage
 * Kubernetes
