@@ -1,3 +1,6 @@
+# pydoc input or curl cht.sh/python/pydoc
+# read about open, file, os, sys
+
 age = input("Сколько тебе лет?")
 height = input("Каков твой рост?")
 weight = input("Сколько ты весишь?")
