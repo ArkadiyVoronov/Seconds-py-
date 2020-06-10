@@ -7,6 +7,9 @@
 
 ## TODO add some foto with shemas of main menu
 ### DevOps
+#### Linux try to work:
+* openSUSE
+
 * Ansible, playbook
 * Latency
 * IOPS
@@ -51,6 +54,11 @@ TODO add link for game "Bulls and Cows"
 * Net and Ansible, playbook, latency, IOPS, digital bandwidth
 #### Next to study
 * PostgreSQL, pgadmin
+#### Linux try to work:
+* openSUSE
+* Debian
+* Fedora
+* CentOS
 ### Clouds
 #### Google Cloud Storage
 * Kubernetes
