@@ -7,9 +7,6 @@
 
 ## TODO add some foto with shemas of main menu
 ### DevOps
-#### Linux try to work:
-* openSUSE
-
 * Ansible, playbook
 * Latency
 * IOPS
