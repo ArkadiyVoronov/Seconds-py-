@@ -1,3 +1,4 @@
+# pydoc open
 from sys import argv
 
 script, filename = argv
