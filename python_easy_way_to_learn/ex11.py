@@ -5,7 +5,7 @@
 print("Сколько тебе лет?", end=' ')
 age = input()
 print("Каков твой рост?", end=' ')
-height = input()  
+height = input()
 print("Сколько ты весишь?", end=' ')
 weight = input()
 
