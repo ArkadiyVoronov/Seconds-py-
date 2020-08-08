@@ -16,7 +16,7 @@ def print_none():
     print("А я ничего не получаю.")
 
 
-print_two("Михаил","Райтман")
-print_two_again("Михаил","Райтман")
+print_two("Михаил", "Райтман")
+print_two_again("Михаил", "Райтман")
 print_one("Первый!")
 print_none()
