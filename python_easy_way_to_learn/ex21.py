@@ -2,7 +2,7 @@ def add(a, b):
     print(f"СЛОЖЕНИЕ {a} + {b}")
     return a + b
 
-def substract(a,b):
+def substract(a, b):
     print(f"ВЫЧИТАНИЕ {a} - {b}")
     return a - b
 
