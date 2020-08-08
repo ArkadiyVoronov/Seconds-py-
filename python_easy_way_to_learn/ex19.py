@@ -3,8 +3,8 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print(f"У нас есть {boxes_of_crakers} пачек чипсов!")
     print("Этого достаточно для вечеринки!")
     print("Погнали!\n")
-    
-    
+
+
 print("Мы можем непосредственно передать числа функции:")
 cheese_and_crakers(20, 30)
 
