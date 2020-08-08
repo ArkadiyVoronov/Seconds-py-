@@ -1,20 +1,20 @@
 def add(a, b):
     print(f"СЛОЖЕНИЕ {a} + {b}")
     return a + b
-    
+
 def substract(a,b):
     print(f"ВЫЧИТАНИЕ {a} - {b}")
     return a - b
-    
+
 def multiply(a, b):
     print(f"УМНОЖЕНИЕ {a} * {b}")
     return a * b
-    
+
 def divide(a, b):
     print(f"ДЕЛЕНИЕ {a} / {b}")
     return a / b
-    
-    
+
+
 print("Давайте выполним несколько вычислений с помощью функций!")
 
 age = add(30, 5)
