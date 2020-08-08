@@ -8,8 +8,8 @@ while i < 6:
     i = i +1
     print("Текущие значения: ", numbers)
     print(f"В конце значение i равно {i}")
-    
-    
+
+
 print("Значения: ")
 
 for num in numbers:
