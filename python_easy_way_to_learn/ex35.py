@@ -70,7 +70,7 @@ def start():
     if choice == "налево":
         bear_room()
     elif choice == "направо":
-        ktulhu_room()
+        cthulhu_room()
     else:
         dead("Ты ходишь из комнаты в комнату, пока не умираешь с голоду.")
 
