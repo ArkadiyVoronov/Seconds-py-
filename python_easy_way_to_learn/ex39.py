@@ -37,25 +37,25 @@ print("В Германии есть город: ", cities[states['Германи
 print('-' * 10)
 for state, abbrev in list(states.items()):
     print(f"{state} имеет аббревиатуру {abbrev}")
-    
+
 # вывод всех городов в странах
 print('-' * 10)
 for abbrev, city in list(cities.items()):
     print(f"В стране {abbrev} есть город {city}")
-    
+
 # а теперь сразу оба типа данных
 print('-' * 10)
 for state, abbrev in list(states.items()):
     print(f"В стране {state} используется аббревиатура {abbrev}")
     print(f"и есть город {cities[abbrev]}")
-    
+
 print('-' * 10)
 # безопасное получение аббревиатуры страны, которая не представлена
 state = states.get('США')
 
 if not state:
     print("Прошу прощения, США не существует или уничтожено.")
-    
+
 # получение города со значением по умолчанию
 city = cities.get('US', 'не существует')
 print(f"В стране 'US', есть город: {city}")
