@@ -1,2 +1,2 @@
-mystuff = {'яблоко': "Я - ЯБЛОКО!"}
-print(mystuff['яблоко'])
+import mystuff
+mystuff.apple()
