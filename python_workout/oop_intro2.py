@@ -8,7 +8,7 @@ class B:
 class C(A,B):
     def salutation(self):
         return '%d %s %s' % (self.x, self.y, self.z)
- 
+
 inst = C()
 print(inst.salutation())
 inst.x = 100
