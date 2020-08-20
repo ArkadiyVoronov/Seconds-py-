@@ -1,7 +1,7 @@
 def sqrt(x):
     def average(a, b):
         return (a + b) / 2.0
- 
+
     def is_good_enough(guess):
         return (abs((guess * guess) - x) < 0.001)
 
