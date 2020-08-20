@@ -11,6 +11,6 @@ class Staff601:
 
     def sulutation(self):
         return self.role + ' ' + self.name
-        
+
 pat = Staff601('Pat', 'Professor', 60, 100000)
 print(pat.salutation())
