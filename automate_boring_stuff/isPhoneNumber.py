@@ -18,7 +18,7 @@ def isPhoneNumber(text):
 
 print('Is 415-555-4242 a phone number?')
 print(IsPhoneNumber('415-555-4242'))
-print('Is Moshi moshi a phone number?)
+print('Is Moshi moshi a phone number?')
 print(isPhoneNumber('Moshi moshi'))
 
 message = 'Call me at 415-555-1011 tomorrow. 415-555-9999 is my office.'
