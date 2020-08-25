@@ -19,5 +19,5 @@ while s:
     if not data:break
     print("Received data:", data)
     conn.send(data) #echo
-    
+
 conn.close
