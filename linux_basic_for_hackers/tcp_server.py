@@ -18,6 +18,6 @@ while s:
     data=conn.recv(BUFFER_SIZE)
     if not data:break
     print("Received data:", data)
-    conn.send(data) #echo
+    conn.send(data) #  echo
 
 conn.close
