@@ -4,4 +4,4 @@ def pig_latin(word):
 
     return f'{word[1:]}{word[0]ay'
 
-print(pig_latin('python')
+print(pig_latin('python'))
